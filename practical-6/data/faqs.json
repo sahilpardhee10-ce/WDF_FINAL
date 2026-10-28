@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "question": "When does the semester start?",
+    "answer": "The semester starts on 16 February."
+  },
+  {
+    "id": 2,
+    "question": "Where can I find the exam timetable?",
+    "answer": "The exam timetable is available on the college website."
+  },
+  {
+    "id": 3,
+    "question": "How can I contact the college office?",
+    "answer": "You can contact the college office during working hours."
+  }
+]

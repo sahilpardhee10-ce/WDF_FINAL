@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Exam Timetable Released",
+    "date": "2026-09-24",
+    "message": "The semester examination timetable has been released."
+  },
+  {
+    "id": 2,
+    "title": "Holiday Notice",
+    "date": "2026-10-02",
+    "message": "The college will remain closed on Gandhi Jayanti."
+  },
+  {
+    "id": 3,
+    "title": "Project Submission",
+    "date": "2026-10-15",
+    "message": "Students must submit their project reports before the deadline."
+  }
+]

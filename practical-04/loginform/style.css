@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cb4848;
+}
+
+form {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #e5efca;
+    border-color: blue;
+}
+
+label {
+    display: block;
+
+    margin-top: 15px;
+    background-color: #e5efca;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background-color: bisque;
+}
+
+button {
+    margin-top: 20px;
+    padding: 8px 20px;
+}
+
+p {
+    color: rgb(11, 6, 6);
+    font-size: 14px;
+    margin: 5px 0;
+}

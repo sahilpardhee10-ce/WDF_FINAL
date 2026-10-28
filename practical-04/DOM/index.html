@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive UI - Practical 4</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Notification Banner -->
+    <div class="notification" id="notification">
+        <span>🔔 Welcome! This website demonstrates JavaScript DOM Manipulation.</span>
+        <button id="closeNotification">&times;</button>
+    </div>
+
+
+    <!--Navigation Bar-->
+    <nav class="navbar">
+        <h2 class="logo">MyWebsite</h2>
+
+        <button class="hamburger" id="hamburger">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#slider">Slider</a></li>
+        </ul>
+
+        <button class="theme-btn" id="themeToggle">
+            🌙 Dark Mode
+        </button>
+    </nav>
+
+
+    <!-- Main Content -->
+    <section class="hero" id="home">
+
+        <h1>JavaScript Interactive UI</h1>
+
+        <p>
+            This webpage demonstrates DOM Manipulation,
+            Event Handling, UI Interactivity and localStorage.
+        </p>
+
+        <button class="modal-btn" id="openModal">
+            Open Modal
+        </button>
+
+    </section>
+
+
+    <!-- FAQ Section -->
+    <section class="section" id="faq">
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-container">
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    What is JavaScript?
+                    <span>+</span>
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        JavaScript is a programming language used
+                        to make websites interactive and dynamic.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    What is DOM?
+                    <span>+</span>
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        DOM stands for Document Object Model.
+                        It allows JavaScript to access and modify
+                        HTML elements.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="faq-item">
+
+                <button class="faq-question">
+                    What is localStorage?
+                    <span>+</span>
+                </button>
+
+                <div class="faq-answer">
+                    <p>
+                        localStorage allows websites to store
+                        data in the user's browser even after
+                        the page is refreshed.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Content Slider -->
+    <section class="section" id="slider">
+
+        <h2>Content Slider</h2>
+
+        <div class="slider-container">
+
+            <div class="slide active">
+                <h3>DOM Manipulation</h3>
+                <p>
+                    JavaScript can select, create, modify and
+                    remove HTML elements dynamically.
+                </p>
+            </div>
+
+            <div class="slide">
+                <h3>Event Handling</h3>
+                <p>
+                    Event listeners allow websites to respond
+                    when users click buttons or interact with elements.
+                </p>
+            </div>
+
+            <div class="slide">
+                <h3>localStorage</h3>
+                <p>
+                    User preferences such as theme selection
+                    can be saved and restored automatically.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="slider-buttons">
+
+            <button id="prevBtn">Previous</button>
+
+            <button id="nextBtn">Next</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+
+        <div class="modal-content">
+
+            <button class="close-modal" id="closeModal">
+                &times;
+            </button>
+
+            <h2>Modal Popup</h2>
+
+            <p>
+                This popup is opened and closed using
+                JavaScript event handling.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            Practical 4 - JavaScript DOM Manipulation,
+            Event Handling and UI Interactivity
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
